@@ -1,0 +1,14 @@
+FINAL SUBMISSION FILES
+
+IDS_Project_Report.pdf is the final 12-page report for reading and submission.
+IDS_Project_Presentation.pptx is the 17-slide PowerPoint with speaker notes.
+
+STUDY AND DEMO
+
+Read ../docs/VIVA_MASTERCLASS.md for the complete technical explanation and viva practice.
+Open ../IDS_Experiment.ipynb for the executed experiment walkthrough.
+Double-click ../launch.bat to start the dashboard. Keep the terminal open.
+Use Detect attacks > Use demo flows > Analyze flows.
+
+The DOCX files are editable source drafts. Automated Word rendering was unavailable;
+use the visually verified PDF for submission.

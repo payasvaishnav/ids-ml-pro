@@ -1,0 +1,187 @@
+{
+  "best_model": "Histogram Gradient Boosting",
+  "test_accuracy": 0.9961411871524231,
+  "test_macro_f1": 0.9923330887389784,
+  "classification_report": {
+    "BENIGN": {
+      "precision": 0.9979190751445086,
+      "recall": 0.9949285384970032,
+      "f1-score": 0.9964215629689483,
+      "support": 4338.0
+    },
+    "Bot": {
+      "precision": 0.9662162162162162,
+      "recall": 0.9930555555555556,
+      "f1-score": 0.9794520547945206,
+      "support": 288.0
+    },
+    "BruteForce": {
+      "precision": 0.9974811083123426,
+      "recall": 0.9949748743718593,
+      "f1-score": 0.9962264150943396,
+      "support": 398.0
+    },
+    "DoS": {
+      "precision": 0.9966616084977238,
+      "recall": 0.9993913572732805,
+      "f1-score": 0.9980246163197083,
+      "support": 3286.0
+    },
+    "Infiltration": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "PortScan": {
+      "precision": 1.0,
+      "recall": 0.9692307692307692,
+      "f1-score": 0.984375,
+      "support": 65.0
+    },
+    "WebAttack": {
+      "precision": 0.9929906542056075,
+      "recall": 0.9906759906759907,
+      "f1-score": 0.9918319719953326,
+      "support": 429.0
+    },
+    "accuracy": 0.9961411871524231,
+    "macro avg": {
+      "precision": 0.9930383803394855,
+      "recall": 0.9917510122292084,
+      "f1-score": 0.9923330887389784,
+      "support": 8811.0
+    },
+    "weighted avg": {
+      "precision": 0.996171119683712,
+      "recall": 0.9961411871524231,
+      "f1-score": 0.996146433476362,
+      "support": 8811.0
+    }
+  },
+  "labels": [
+    "BENIGN",
+    "Bot",
+    "BruteForce",
+    "DoS",
+    "Infiltration",
+    "PortScan",
+    "WebAttack"
+  ],
+  "confusion_matrix": [
+    [
+      4316,
+      10,
+      1,
+      8,
+      0,
+      0,
+      3
+    ],
+    [
+      2,
+      286,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      396,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      3284,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      63,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      425
+    ]
+  ],
+  "binary_confusion_matrix": [
+    [
+      4316,
+      22
+    ],
+    [
+      9,
+      4464
+    ]
+  ],
+  "binary_false_positive_rate": 0.005071461502996773,
+  "binary_attack_recall": 0.9979879275653923,
+  "accuracy_ci95": [
+    0.9947792532062195,
+    0.9973896266031097
+  ],
+  "macro_f1_ci95": [
+    0.9881799400681692,
+    0.9954922939284571
+  ],
+  "inference_seconds": 0.06426650000003065,
+  "rows": 44051,
+  "duplicates_removed": 12610,
+  "features": 77,
+  "split": {
+    "train": 26430,
+    "validation": 8810,
+    "test": 8811
+  },
+  "class_counts": {
+    "BENIGN": 21688,
+    "DoS": 16430,
+    "WebAttack": 2143,
+    "BruteForce": 1987,
+    "Bot": 1441,
+    "PortScan": 326,
+    "Infiltration": 36
+  },
+  "seed": 42,
+  "tuning_best_params": {
+    "decisiontreeclassifier__min_samples_leaf": 1,
+    "decisiontreeclassifier__max_depth": null,
+    "decisiontreeclassifier__criterion": "gini"
+  },
+  "cv_folds": 3,
+  "bootstrap_repeats": 300,
+  "dataset_sha256": "03ba3626a0f9bb73b90c56772893e68b0577285130891cd7d811542c17b032dd",
+  "python": "3.13.1",
+  "sklearn": "1.9.1",
+  "created_utc": "2026-10-22T17:41:41.793758+00:00",
+  "test_note": "Fixed sample test split reused from initial prototype. Internal benchmark, not independent external validation."
+}
