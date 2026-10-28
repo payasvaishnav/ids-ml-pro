@@ -2,8 +2,6 @@
 
 A semester project that compares eight configurations on sampled CICIDS2017 network flows: a majority baseline, Decision Tree, tuned tree, Random Forest, Extra Trees, Histogram Gradient Boosting, a 20-feature tree and stacking. It includes training cross-validation, error analysis, a Streamlit dashboard, report, presentation and an executed notebook.
 
-For viva preparation, start with [the technical walkthrough](docs/VIVA_MASTERCLASS.md). The submission materials are in `deliverables/`. Student: Payas Vaishnav, 23BCP430, CSE PDEU, Semester 7. Faculty guide: Dr Nandini Modi.
-
 ## Start here
 
 The local setup includes Python in `.venv`. Open PowerShell in this folder and run:
